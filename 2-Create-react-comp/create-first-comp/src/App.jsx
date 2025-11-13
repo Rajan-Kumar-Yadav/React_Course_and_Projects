@@ -1,9 +1,18 @@
-import KgButton from "./KgButton";
+import Hello from "./Hello";
+
+import Random from "./Random";
 
 function App() {
   return (
     <>
-      <h1>Hello Rajan</h1>;<KgButton></KgButton>
+      <h1>Hello Rajan</h1>
+      <Hello />
+      <Random />
+      <Random />
+      <Random />
+      <Random />
+      <Random />
+      <Random />
     </>
   );
 }
