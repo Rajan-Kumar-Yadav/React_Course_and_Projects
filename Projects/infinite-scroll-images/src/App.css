@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.images {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 700px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 12px;
+  margin: 3px;
+}
