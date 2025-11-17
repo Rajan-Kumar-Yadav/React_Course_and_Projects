@@ -1,4 +1,4 @@
-console.log("Hello Rajan kumar");
+// console.log("Hello Rajan kumar");
 // let number = prompt("Please enter your");
 
 // if (number % 5 === 0) {
@@ -68,3 +68,111 @@ console.log("Hello Rajan kumar");
 // // c.Add Amazon at the end.
 // companies.push("Amazon");
 // console.log(companies);
+
+//Qs Create a function using the "function"keyword that takes a String as an arguments and returns the number of vowels in the string.
+
+// function numberVowels(string) {
+//   let vowels = 0;
+//   let i = 0;
+//   while (i < string.length) {
+//     console.log(string[i]);
+//     if (
+//       string[i] === "a" ||
+//       string[i] === "e" ||
+//       string[i] === "i" ||
+//       string[i] === "o" ||
+//       string[i] === "u"
+//     ) {
+//       vowels++;
+//     }
+//     i++;
+//   }
+//   return vowels;
+// }
+
+// let string = prompt("pease enter your String to count number of the voules");
+
+// let vowels = numberVowels(string);
+// console.log("number of the : ", vowels);
+
+//Qs Create an arroe function to perform the same task.
+// const numberOfVowels = (str) => {
+//   let count = 0;
+//   for (const char of str) {
+//     console.log(char);
+//     if (
+//       char === "a" ||
+//       char === "e" ||
+//       char === "i" ||
+//       char === "o" ||
+//       char === "u"
+//     ) {
+//       count++;
+//     }
+//   }
+//   return count;
+// };
+// let string = prompt("Please enter your String to count Voules");
+// let voules = numberOfVowels(string);
+// console.log("no of voules: ", voules);
+
+// for Each loop  in Array
+
+// function rajan() {
+//   console.log("Hello Rajan kumar");
+// }
+// function myFunc(abc) {
+//   return abc;
+// }
+// rajan();
+// myFunc(rajan());
+
+// Qs- For a given array of numbers ,print the square of each value using the forEach loop.;
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// function square(array) {
+//   array.forEach((num, index, arr) => {
+//     console.log(num * num);
+//   });
+// }
+// square(arr);
+
+// const multipleNumber = (array) => {
+//   array.forEach((num, index, array) => {
+//     console.log(num * num, index, array);
+//   });
+//   return square;
+// };
+
+// multipleNumber(arr);
+
+// Map method in array
+
+// let num = [67, 52, 39];
+
+// num.map((val) => {
+//   console.log(val);
+// });
+
+// let newArray = num.map((val) => {
+//   return val * val;
+// });
+// console.log(newArray);
+
+// Filter method in array
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+
+// let evenNumberArray = arr.filter((val) => {
+//   return val % 2 === 0;
+// });
+// console.log(evenNumberArray);
+
+// Reduce method in Array
+
+// let arr = [1, 23, 5, 34, 9, 59, 39, 23, 53, 48, 10, 44];
+// let largestNumber = arr.reduce((preValue, currentValue) => {
+//   return preValue > currentValue ? preValue : currentValue;
+// });
+// console.log(largestNumber);
