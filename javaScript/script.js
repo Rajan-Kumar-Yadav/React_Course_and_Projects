@@ -176,3 +176,47 @@
 //   return preValue > currentValue ? preValue : currentValue;
 // });
 // console.log(largestNumber);
+
+// Qs- We are given array of marks of students.Filter our of the marks of students that scored 90+;
+
+// let studentsMarks = [50, 40, 59, 60, 50, 90, 92, 93, 96, 98];
+
+// let greaterMarks = studentsMarks.filter((val, index, arr) => {
+//   return val > 90;
+// });
+
+// console.log(greaterMarks);
+
+// Qs- Take a number n as input from user. Create an array of numbers from 1 to n.
+
+//let number = prompt("Please enter your number");
+
+// let i = 0;
+// let arr = [];
+// while (i < number) {
+//   arr[i] = i + 1;
+//   i++;
+// }
+// console.log(arr);
+//Qs- Use the reduce method to calculate sum of all numbers in the array.
+// let sum = arr.reduce((intialVal, currentValue) => {
+//   return intialVal + currentValue;
+// });
+
+// let sum = (array) => {
+//   let calculation = array.reduce((intialVal, currentVal) => {
+//     return intialVal + currentVal;
+//   });
+//   return calculation;
+// };
+// console.log( "Sum of the array is: ",sum(arr));
+
+// Use the reduce method to calculate product of all numbers in the array.
+
+// let product = (array) => {
+//   let product = array.reduce((initalVal, currentVal) => {
+//     return initalVal * currentVal;
+//   });
+//   return product;
+// };
+// console.log("product of the array is: ", product(arr));
