@@ -220,3 +220,16 @@
 //   return product;
 // };
 // console.log("product of the array is: ", product(arr));
+
+// DOM MANIPULATION
+// Selecting  by id
+
+// let heading = document.getElementById("heading");
+// console.log(heading);
+// console.dir(heading);
+
+//Selecting by ClassName
+
+let heading = document.getElementsByClassName("heading");
+console.log(heading);
+console.dir(heading);
