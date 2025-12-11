@@ -230,6 +230,43 @@
 
 //Selecting by ClassName
 
-let heading = document.getElementsByClassName("heading");
-console.log(heading);
-console.dir(heading);
+// let heading = document.getElementsByClassName("heading");
+// console.log(heading);
+// console.dir(heading);
+
+//Qs- Create a H2 heading element with text -"Hello javaScript".Append "from Apna Colllege";
+// let element = document.querySelector("h2");
+// console.log(element);
+// element.innerText = element.innerText + "from Apna College Student";
+// console.log(element.innerText);
+
+// let boxs = document.querySelectorAll(".box");
+// console.log(box);
+// box[0].innerText = "Rajan kumar";
+// box[1].innerText = "Rajan kumar yadav";
+// box[2].innerText = "I am learning javaScript";
+// console.log(box[0]);
+
+// let index = 1;
+
+// for (box of boxs) {
+//   box.innerText = `Rajan kumar ${index} `;
+//   index++;
+// }
+
+//Qs- Create a new button element.Give it a text "click me",background color of red & text color of white. Insert  button as the first element inside the body tag.
+
+// let newButton = document.createElement("button");
+// newButton.innerText = "Click me";
+// newButton.style.backgroundColor = "red";
+// newButton.style.color = "white";
+// newButton.style.height = "40px";
+// newButton.style.width = "100px";
+
+// let body = document.querySelector("body");
+// body.prepend(newButton);
+
+//Qs-Create a <p> tag in html, give it a class & some stying. Now create a new class in css and try to append this class to the <p> element. Did you notice, how you overwrite the class name when you add a new one? solve this problem using classList.
+
+let p = document.querySelector("p");
+p.classList.add("rajan");
