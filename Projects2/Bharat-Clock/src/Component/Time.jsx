@@ -4,10 +4,14 @@ const Time = () => {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
+    console.log("InterVal has been setup");
     const timer = setInterval(() => {
       setTime(new Date());
     }, 1000);
-    return () => clearInterval(timer);
+    return () => {
+      clearInterval(timer);
+      console.log("Cancelled the interval");
+    };
   }, []);
   return (
     <>
